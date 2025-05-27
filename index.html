@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço da Tia Danny</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #fff0f5, #ffe4e1);
+            color: #444;
+        }
+
+        header {
+            background: linear-gradient(to right, #f48fb1, #ff80ab);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            text-shadow: 2px 2px #f06292;
+        }
+
+        .apresentacao {
+            background-color: #ffe0f0;
+            margin: 20px;
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 1.2em;
+            color: #a50055;
+            box-shadow: 0 4px 10px rgba(255, 105, 180, 0.2);
+        }
+
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin: 30px 20px;
+        }
+
+        .produto {
+            background-color: #ffebee;
+            border-radius: 20px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 10px rgba(255, 182, 193, 0.3);
+        }
+
+        .produto:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 14px rgba(255, 105, 180, 0.5);
+        }
+
+        .produto img {
+            width: 100%;
+            border-radius: 15px;
+            border: 3px solid #f48fb1;
+        }
+
+        .produto h3 {
+            margin: 10px 0 5px;
+            color: #d81b60;
+        }
+
+        .produto p {
+            font-size: 16px;
+            color: #7b1fa2;
+            font-weight: bold;
+        }
+
+        .whatsapp {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .whatsapp a {
+            background-color: #25D366;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 15px;
+            transition: background 0.3s;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .whatsapp a:hover {
+            background-color: #1ebe5d;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Espaço da Tia Danny</h1>
+    </header>
+
+    <div class="apresentacao">
+        <p>Bem-vindos ao <strong>Espaço da Tia Danny</strong>! ✂️💕<br> Aqui você encontra recursos incríveis em EVA feitos com amor para evangelizar com criatividade e encantar corações! 🧸✨</p>
+    </div>
+
+    <section class="produtos">
+        <div class="produto">
+            <img src="produto1.jpg" alt="Produto 1">
+            <h3>Plano da Salvação</h3>
+            <p>R$35,00</p>
+        </div>
+        <div class="produto">
+            <img src="produto2.jpg" alt="Produto 2">
+            <h3>Evangelizando</h3>
+            <p>R$20,00</p>
+        </div>
+        <div class="produto">
+            <img src="produto3.jpg" alt="Produto 3">
+            <h3>História da Criação (Vestido)</h3>
+            <p>R$35,00</p>
+        </div>
+        <div class="produto">
+            <img src="produto4.jpg" alt="Produto 4">
+            <h3>Recurso Bíblico</h3>
+            <p>R$40,00</p>
+        </div>
+        <div class="produto">
+            <img src="produto5.jpg" alt="Produto 5">
+            <h3>Bolsa Bíblia</h3>
+            <p>R$25,00</p>
+        </div>
+        <div class="produto">
+            <img src="produto6.jpg" alt="Produto 6">
+            <h3>Recurso Jonas</h3>
+            <p>R$20,00</p>
+        </div>
+        <div class="produto">
+            <img src="produto7.jpg" alt="Produto 7">
+            <h3>A Criação</h3>
+            <p>R$40,00</p>
+        </div>
+    </section>
+
+    <section class="whatsapp">
+        <a href="https://wa.me/5599992162577" target="_blank">💬 Fale comigo no WhatsApp</a>
+    </section>
+
+    <footer>
+        &copy; 2025 Espaço da Tia Danny | Todos os direitos reservados
+    </footer>
+</body>
+</html>
